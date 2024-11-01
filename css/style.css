@@ -100,15 +100,15 @@ font-weight: bold;
 max-width: 1320px;
 padding: 0 48px;
 margin: 0 auto;
-display: grid;
-    grid-template-columns: auto auto auto auto;
+
     row-gap: 48px;
   }
   .cards__card{
-    width: 318px;
     padding: 0 24px;
     margin-bottom: 48px;
-    margin: 0 auto;
+    margin: 0 auto;display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
   }
   .cards__card__item{
     width: 100%;
