@@ -1,93 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
-  <body>
-    <!-- header start -->
-    <header>
-      <div class="container">
-        <nav class="navbar">
-          <div class="navbar__start">Start Bootstrap</div>
-          <div class="navbar__items">
-            <div class="navbar__items__pages">
-              <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Shop</li>
-              </ul>
-            </div>
-            <div class="navbar__items__cart">
-              <button>
-                <i class="fa-solid fa-cart-shopping"></i> Cart <span>0</span>
-              </button>
-            </div>
-            <div class="navbar__menu_button">
-              <i class="fa-solid fa-bars"></i>
-            </div>
+<body>
+  <!-- header start -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar__start">Start Bootstrap</div>
+        <div class="navbar__items">
+          <div class="navbar__items__pages">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Shop</li>
+              <li><a href="./adminpage.html">Admin page</a></li>
+            </ul>
           </div>
-        </nav>
+          <div class="navbar__items__cart"> <button><i class="fa-solid fa-cart-shopping"></i> Cart
+              <span>0</span></button></div>
+          <div class="navbar__menu_button"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+  <!-- header end -->
+  <main>
+    <!-- section hero start -->
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__shop">Shop in style
+        </div>
+        <div class="hero__with">With this shop hompeage template</div>
       </div>
-    </header>
-    <!-- header end -->
-    <main>
-      <!-- section hero start -->
-      <section class="hero">
-        <div class="hero__container">
-          <div class="hero__shop">Shop in style</div>
-          <div class="hero__with">With this shop hompeage template</div>
-        </div>
-      </section>
-      <!-- section hero end -->
-      <section class="cards">
-        <div class="cards__container">
-          <div class="cards__card">
-            <div class="cards__card__item">
-              <div class="item__sale">Sale</div>
-              <div class="imgdiv"><img
-                class="item__topimg"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt=""
-              /></div>
-              <div class="item__header">
-                <h5>Special Item</h5>
-                <div class="item__header__stars">
-                  <i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i
-                  ><i class="fa-solid fa-star"></i>
-                </div>
-                <div class="item__header__price">
-                  <span>$20.00</span> $18.00
-                </div>
-              </div>
-              <div class="item__footer"><button>Add to cart</button></div>
+    </section>
+    <!-- section hero end -->
+    <section class="cards">
+      <div class="cards__container">
+        <!-- <div class="cards__card">
+          <div class="cards__card__item">
+            <img class="item__topimg" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="item__header">
+              <h5>Fancy Product</h5>
+              <div class="item__header__price">$40.00 - $80.00</div>
             </div>
+            <div class="item__footer"><button>View Options</button></div>
+          </div>
+        </div> -->
+        <!-- <div class="cards__card">
+          <div class="cards__card__item">
+            <div class="item__sale">Sale</div>
+            <img class="item__topimg" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="item__header">
+              <h5>Special Item</h5>
+              <div class="item__header__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <div class="item__header__price"><span>$20.00</span> $18.00</div>
+            </div>
+            <div class="item__footer"><button>Add to cart</button></div>
+          </div>
+        </div> -->
+        <!-- <div class="cards__card">
+          <div class="cards__card__item">
+            <div class="item__sale">Sale</div>
+            <img class="item__topimg" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="item__header">
+              <h5>Sale Item</h5>
+              <div class="item__header__price"><span>$50.00</span> $25.00</div>
+            </div>
+            <div class="item__footer"><button>Add to cart</button></div>
           </div>
         </div>
-      </section>
-      <!-- section cards end -->
-    </main>
-    <footer>
-      <div class="copy">Copyright © Your Website 2023</div>
-      <button id="adminpage">
-        <a href="./adminpage.html">Go to AdminPage</a>
-      </button>
-    </footer>
-    <script src="./main.js"></script>
-  </body>
+        <div class="cards__card">
+          <div class="cards__card__item">
+            <img class="item__topimg" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="item__header">
+              <h5>Popular Item</h5>
+              <div class="item__header__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <div class="item__header__price">$40.00</div>
+            </div>
+            <div class="item__footer"><button>Add to cart</button></div>
+          </div>
+        </div>
+        <div class="cards__card">
+          <div class="cards__card__item">
+            <div class="item__sale">Sale</div>
+            <img class="item__topimg" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="item__header">
+              <h5>Sale Item</h5>
+              <div class="item__header__price"><span>$50.00</span> $25.00</div>
+            </div>
+            <div class="item__footer"><button>Add to cart</button></div>
+          </div>
+        </div>
+        <div class="cards__card">
+          <div class="cards__card__item">
+            <img class="item__topimg" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="item__header">
+              <h5>Fancy Product</h5>
+              <div class="item__header__price">$120.00 - $280.00</div>
+            </div>
+            <div class="item__footer"><button>View Options</button></div>
+          </div>
+        </div>
+        <div class="cards__card">
+          <div class="cards__card__item">
+            <div class="item__sale">Sale</div>
+            <img class="item__topimg" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="item__header">
+              <h5>Special Item</h5>
+              <div class="item__header__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <div class="item__header__price"><span>$20.00</span> $18.00</div>
+            </div>
+            <div class="item__footer"><button>Add to cart</button></div>
+          </div>
+        </div>
+        <div class="cards__card">
+          <div class="cards__card__item">
+            <img class="item__topimg" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="">
+            <div class="item__header">
+              <h5>Sale Item</h5>
+              <div class="item__header__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                  class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <div class="item__header__price">$40.00</div>
+            </div>
+            <div class="item__footer"><button>Add to cart</button> </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- section cards end -->
+  </main>
+  <footer>
+    <div class="copy">Copyright © Your Website 2023</div>
+  </footer>
+  <script type="module" src="./assets/js/task1.js"></script>
+</body>
+
 </html>
